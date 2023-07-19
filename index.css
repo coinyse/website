@@ -1,0 +1,855 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.home-logo {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.home-image {
+  width: 200px;
+  object-fit: cover;
+}
+.home-links {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.home-text {
+  color: var(--dl-color-scheme-green80);
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.home-link {
+  color: var(--dl-color-scheme-green80);
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.home-link1 {
+  color: var(--dl-color-scheme-green80);
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.home-link2 {
+  color: var(--dl-color-scheme-green80);
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.home-link3 {
+  text-decoration: none;
+}
+.home-burger-menu {
+  fill: #105749;
+  width: 24px;
+  height: 24px;
+}
+.home-max-width1 {
+  align-items: center;
+}
+.home-content {
+  flex: 0 0 auto;
+  width: 45%;
+  display: flex;
+  align-items: flex-start;
+  margin-right: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-threeunits);
+  flex-direction: column;
+}
+.home-subtitle {
+  color: var(--dl-color-scheme-orange100);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.home-title {
+  color: var(--dl-color-scheme-white);
+  font-size: 52px;
+  font-style: normal;
+  font-family: Urbanist;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.home-description {
+  color: var(--dl-color-scheme-white);
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: var(--dl-space-space-threeunits);
+}
+.home-image1 {
+  position: relative;
+  padding-bottom: var(--dl-space-space-eightunits);
+}
+.home-hero-image {
+  flex: 1;
+  max-width: 550px;
+  object-fit: cover;
+  border-radius: 48px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.home-max-width2 {
+  align-items: stretch;
+}
+.home-hero-image1 {
+  object-fit: contain;
+  margin-left: -250px;
+  border-radius: 48px;
+}
+.home-content1 {
+  width: 50%;
+  display: flex;
+  margin-left: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: center;
+}
+.home-text01 {
+  color: var(--dl-color-scheme-green80);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.home-text02 {
+  font-size: 42px;
+  font-style: normal;
+  font-family: Urbanist;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.home-text04 {
+  color: #e48f3b;
+}
+.home-text05 {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: var(--dl-space-space-threeunits);
+}
+.home-container01 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+}
+.home-section1 {
+  background-color: var(--dl-color-scheme-green100);
+}
+.home-max-width3 {
+  align-items: stretch;
+}
+.home-image3 {
+  width: 50%;
+}
+.home-hero-image2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 48px;
+}
+.home-content2 {
+  width: 40%;
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: center;
+}
+.home-text18 {
+  color: var(--dl-color-scheme-white);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.home-text19 {
+  color: var(--dl-color-scheme-white);
+  font-size: 42px;
+  font-style: normal;
+  font-family: Urbanist;
+  font-weight: 700;
+  line-height: 1.35;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.home-step {
+  display: flex;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: row;
+}
+.home-number {
+  flex: 0 0 auto;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  margin-right: var(--dl-space-space-twounits);
+  border-radius: var(--dl-radius-radius-radius16);
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-scheme-orange100);
+}
+.home-text20 {
+  font-size: 28px;
+  font-style: normal;
+  font-family: Urbanist;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.home-container02 {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-title1 {
+  color: var(--dl-color-scheme-white);
+  font-size: 24px;
+  font-style: normal;
+  font-family: Urbanist;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.home-text21 {
+  color: var(--dl-color-scheme-white);
+  line-height: 1.5;
+}
+.home-step1 {
+  display: flex;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: row;
+}
+.home-number1 {
+  flex: 0 0 auto;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  margin-right: var(--dl-space-space-twounits);
+  border-radius: var(--dl-radius-radius-radius16);
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-scheme-orange100);
+}
+.home-text22 {
+  font-size: 28px;
+  font-style: normal;
+  font-family: Urbanist;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.home-container03 {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-title2 {
+  color: var(--dl-color-scheme-white);
+  font-size: 24px;
+  font-style: normal;
+  font-family: Urbanist;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.home-text23 {
+  color: var(--dl-color-scheme-white);
+  line-height: 1.5;
+}
+.home-step2 {
+  display: flex;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: row;
+}
+.home-number2 {
+  flex: 0 0 auto;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  margin-right: var(--dl-space-space-twounits);
+  border-radius: var(--dl-radius-radius-radius16);
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-scheme-orange100);
+}
+.home-text24 {
+  font-size: 28px;
+  font-style: normal;
+  font-family: Urbanist;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.home-container04 {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-title3 {
+  color: var(--dl-color-scheme-white);
+  font-size: 24px;
+  font-style: normal;
+  font-family: Urbanist;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.home-text25 {
+  color: var(--dl-color-scheme-white);
+  line-height: 1.5;
+}
+.home-step3 {
+  display: flex;
+  flex-direction: row;
+}
+.home-number3 {
+  flex: 0 0 auto;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  margin-right: var(--dl-space-space-twounits);
+  border-radius: var(--dl-radius-radius-radius16);
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-scheme-orange100);
+}
+.home-text26 {
+  font-size: 28px;
+  font-style: normal;
+  font-family: Urbanist;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.home-container05 {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-title4 {
+  color: var(--dl-color-scheme-white);
+  font-size: 24px;
+  font-style: normal;
+  font-family: Urbanist;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.home-text27 {
+  color: var(--dl-color-scheme-white);
+  line-height: 1.5;
+}
+.home-section2 {
+  background-color: #6bbbaa;
+}
+.home-max-width4 {
+  align-items: stretch;
+}
+.home-image4 {
+  width: 50%;
+}
+.home-hero-image3 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 48px;
+}
+.home-content3 {
+  width: 40%;
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: center;
+}
+.home-text28 {
+  color: var(--dl-color-scheme-white);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.home-text29 {
+  color: var(--dl-color-scheme-white);
+  font-size: 42px;
+  font-style: normal;
+  font-family: Urbanist;
+  font-weight: 700;
+  line-height: 1.35;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.home-step4 {
+  display: flex;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: row;
+}
+.home-number4 {
+  flex: 0 0 auto;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  margin-right: var(--dl-space-space-twounits);
+  border-radius: var(--dl-radius-radius-radius16);
+  flex-direction: column;
+  justify-content: center;
+  background-color: #6e9ace;
+}
+.home-text30 {
+  color: #f9f9f9;
+  font-size: 28px;
+  font-style: normal;
+  font-family: Urbanist;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.home-container06 {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-title5 {
+  color: var(--dl-color-scheme-white);
+  font-size: 24px;
+  font-style: normal;
+  font-family: Urbanist;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.home-text31 {
+  color: var(--dl-color-scheme-white);
+  line-height: 1.5;
+}
+.home-step5 {
+  display: flex;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: row;
+}
+.home-number5 {
+  flex: 0 0 auto;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  margin-right: var(--dl-space-space-twounits);
+  border-radius: var(--dl-radius-radius-radius16);
+  flex-direction: column;
+  justify-content: center;
+  background-color: #6e9ace;
+}
+.home-text32 {
+  color: #ffffff;
+  font-size: 28px;
+  font-style: normal;
+  font-family: Urbanist;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.home-container07 {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-title6 {
+  color: var(--dl-color-scheme-white);
+  font-size: 24px;
+  font-style: normal;
+  font-family: Urbanist;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.home-text33 {
+  color: var(--dl-color-scheme-white);
+  line-height: 1.5;
+}
+.home-step6 {
+  display: flex;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: row;
+}
+.home-number6 {
+  flex: 0 0 auto;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  margin-right: var(--dl-space-space-twounits);
+  border-radius: var(--dl-radius-radius-radius16);
+  flex-direction: column;
+  justify-content: center;
+  background-color: #6e9ace;
+}
+.home-text34 {
+  color: #ffffff;
+  font-size: 28px;
+  font-style: normal;
+  font-family: Urbanist;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.home-container08 {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-title7 {
+  color: var(--dl-color-scheme-white);
+  font-size: 24px;
+  font-style: normal;
+  font-family: Urbanist;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.home-text35 {
+  color: var(--dl-color-scheme-white);
+  line-height: 1.5;
+}
+.home-step7 {
+  display: flex;
+  flex-direction: row;
+}
+.home-number7 {
+  flex: 0 0 auto;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  margin-right: var(--dl-space-space-twounits);
+  border-radius: var(--dl-radius-radius-radius16);
+  flex-direction: column;
+  justify-content: center;
+  background-color: #6e9ace;
+}
+.home-text36 {
+  color: #ffffff;
+  font-size: 28px;
+  font-style: normal;
+  font-family: Urbanist;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.home-container09 {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-title8 {
+  color: var(--dl-color-scheme-white);
+  font-size: 24px;
+  font-style: normal;
+  font-family: Urbanist;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.home-text37 {
+  color: var(--dl-color-scheme-white);
+  line-height: 1.5;
+}
+.home-section3 {
+  padding-top: 0px;
+}
+.home-max-width5 {
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-faq {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-eightunits);
+  flex-direction: row;
+  justify-content: space-between;
+}
+.home-questions {
+  flex: 0 0 auto;
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-container10 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.home-div {
+  width: 606px;
+}
+.home-container11 {
+  width: 50%;
+  height: 548px;
+  display: flex;
+  align-items: flex-start;
+  margin-right: -200px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.home-text38 {
+  font-size: 50px;
+  font-family: Comic Sans MS;
+}
+.home-text39 {
+  font-weight: 600;
+}
+.home-text41 {
+  font-size: 30px;
+  font-style: normal;
+  font-family: Merriweather;
+  font-weight: 700;
+}
+.home-banner {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-fourunits);
+  align-items: center;
+  border-radius: 48px;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url("public/group%2011-1200w.png");
+}
+.home-text52 {
+  color: var(--dl-color-scheme-lightgreen);
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.home-text53 {
+  color: var(--dl-color-scheme-white);
+  font-size: 42px;
+  font-style: normal;
+  text-align: center;
+  font-family: Urbanist;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.home-btns {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+}
+.home-link4 {
+  padding-top: 12px;
+  margin-right: 0px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+  text-decoration: none;
+}
+.home-footer {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.home-links-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.home-container12 {
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media(max-width: 991px) {
+  .home-content {
+    width: 50%;
+    margin-right: var(--dl-space-space-unit);
+  }
+  .home-image1 {
+    padding-bottom: var(--dl-space-space-threeunits);
+  }
+  .home-hero-image {
+    margin-bottom: 0px;
+  }
+  .home-max-width2 {
+    flex-direction: column;
+  }
+  .home-image2 {
+    padding-bottom: var(--dl-space-space-threeunits);
+  }
+  .home-hero-image1 {
+    width: 100%;
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+  .home-content1 {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .home-max-width3 {
+    flex-direction: column;
+  }
+  .home-image3 {
+    width: 100%;
+    padding-bottom: var(--dl-space-space-threeunits);
+  }
+  .home-hero-image2 {
+    width: 100%;
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+  .home-content2 {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .home-max-width4 {
+    flex-direction: column;
+  }
+  .home-image4 {
+    width: 100%;
+    padding-bottom: var(--dl-space-space-threeunits);
+  }
+  .home-hero-image3 {
+    width: 100%;
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+  .home-content3 {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .home-max-width5 {
+    flex-direction: column;
+  }
+  .home-questions {
+    width: 60%;
+  }
+  .home-div {
+    width: 451px;
+  }
+  .home-container11 {
+    margin-right: -100px;
+  }
+  .home-footer {
+    flex-direction: column;
+  }
+  .home-links-container {
+    width: auto;
+    margin-top: var(--dl-space-space-twounits);
+    flex-direction: row;
+  }
+  .home-container12 {
+    flex-wrap: wrap;
+    margin-right: 0px;
+  }
+}
+@media(max-width: 767px) {
+  .home-links {
+    display: none;
+  }
+  .home-icon {
+    fill: var(--dl-color-scheme-green100);
+  }
+  .home-max-width1 {
+    flex-direction: column-reverse;
+  }
+  .home-content {
+    width: 100%;
+    margin-right: 0px;
+  }
+  .home-hero-image {
+    margin-right: 0px;
+  }
+  .home-content1 {
+    width: 100%;
+    margin-right: 0px;
+  }
+  .home-content2 {
+    width: 100%;
+    margin-right: 0px;
+  }
+  .home-content3 {
+    width: 100%;
+    margin-right: 0px;
+  }
+  .home-faq {
+    margin-bottom: var(--dl-space-space-twounits);
+    flex-direction: column;
+  }
+  .home-questions {
+    width: 100%;
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .home-container11 {
+    width: 100%;
+    margin-right: 0px;
+  }
+  .home-banner {
+    padding: var(--dl-space-space-twounits);
+  }
+  .home-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .home-links-container {
+    width: auto;
+    margin-top: var(--dl-space-space-twounits);
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .home-container12 {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+@media(max-width: 479px) {
+  .home-text27 {
+    color: var(--dl-color-scheme-white);
+    line-height: 1.5;
+  }
+  .home-text37 {
+    color: var(--dl-color-scheme-white);
+    line-height: 1.5;
+  }
+  .home-div {
+    width: 437px;
+  }
+  .home-banner {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .home-footer {
+    padding: var(--dl-space-space-unit);
+  }
+  .home-links-container {
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .home-container12 {
+    align-items: center;
+    margin-right: 0px;
+    justify-content: space-between;
+  }
+}
